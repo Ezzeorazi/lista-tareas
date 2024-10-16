@@ -123,3 +123,14 @@ h1 {
   .icono-eliminar:hover {
     background-color: rgba(255, 255, 255, 0.523);
   }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgba(146, 146, 146, 0.596);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+}
