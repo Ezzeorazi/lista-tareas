@@ -9,10 +9,11 @@
   
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 40px 0;
+    padding-top: 20px;
     text-align: center;
     background: url(imagenes/fondo.jpg) no-repeat center center/ cover;
   }
@@ -125,12 +126,9 @@ h1 {
   }
 
   .footer {
-    position: fixed;
-    bottom: 0;
+    
+    background-color: rgba(255, 255, 255, 0.523);
+    padding: 20px;
     width: 100%;
-    background-color:  rgba(146, 146, 146, 0.596);
-    color: black;
-    text-align: center;
-    padding: 15px;
-    font-family: 'Lato', sans-serif;
-}
+    margin-top: 50px;
+  }
